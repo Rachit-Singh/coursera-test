@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	margin-top: 7%;
+	text-align: center;
+}
+
+#section1 {
+	margin-bottom: 4%
+}
+#section2 {
+	margin-bottom: 4%
+}
+#section3 {
+	margin-bottom: 4%
+}
+
+.contents {
+	position: relative;
+	background-color: grey;
+	border: 1px solid black;
+}
+
+.heading {
+	float: right;
+	margin-bottom: 4%;
+	width: 30%;
+	height: 15%;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.para {
+	clear: right;
+	padding: 3%;
+}
+
+#c12 {
+	width: 94%;
+	height: 94%;
+	top : 3%;
+	left : 3%;
+}
+#c3 {
+	width: 94%;
+	height: 94%;
+	top : 3%;
+	left : 3%;
+}
+
+#he1 {
+	background-color: red;
+}
+#he2 {
+	background-color: green;
+}
+#he3 {
+	background-color: blue;
+}
+
+@media (min-width: 992px) {
+	#section1 {
+	float: left;
+	width: 33.33%;
+	height: 25%;
+	}
+	#section2 {
+		float: left;
+		width: 33.33%;
+		height: 25%;
+	}
+	#section3 {
+		float: left;
+		width: 33.33%;
+		height: 25%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#section1 {
+	float: left;
+	width: 50%;
+	height: 25%;
+	}
+	#section2 {
+		float: left;
+		width: 50%;
+		height: 25%;
+	}
+	#section3 {
+		float: left;
+		width: 100%;
+		height: 25%;
+	}
+	#c3 {
+		width: 97%;
+		height: 97%;
+		top : 1.5%;
+		left : 1.5%;
+	}
+}
